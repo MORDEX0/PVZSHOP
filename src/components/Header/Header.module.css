@@ -1,0 +1,53 @@
+.header {
+    background: linear-gradient(to right, #106d20, #25b612);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.headerContent {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.headerContent h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.headerContent p {
+    margin: 10px 0 20px;
+}
+
+.cta {
+    background: #8bc34a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.cta:hover {
+    background: #7cb342;
+}
